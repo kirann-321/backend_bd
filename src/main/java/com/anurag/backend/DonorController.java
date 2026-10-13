@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/donors")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "frntd-ef2pp7ojy-kiran-2d6b.vercel.app")
 public class DonorController {
 
     private final List<Map<String, String>> donors =
